@@ -1,7 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
-<head></head>
-  <body>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Interests">
+    <meta name="author" content="Carlos Cabada">
+
+    <title>Contact Information</title>
+
+    <!-- Bootstrap -->
+    <link href="bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="stylesheet.css">
+
+
+    <body>
+        <div class="jumbotron">
+          <div class="container">
+              <h1>Contact Information</h1>
+              <div class="navbar-header">
+                  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                      <li><a class="navbar-brand" href="work.html" >Work Experience</a></li>
+                      <li><a class="navbar-brand"href="contactInfo.html">Contact Information</a></li>
+                      <li><a class="navbar-brand" href="interest.html">Interests</a></li>
+                      <li><a class="navbar-brand" href="index.html">Portfolio</a></li>
+                    </ul>
+                  </div>
+          </div>
+        </div>
+
+
+            <!--Section: Contact v.2-->
+<section class="mb-4">
+
+    <!--Section heading-->
+    <h2 class="form_header">Contact Me</h2>
+    <!--Section description-->
+    <p class="form_description">If you want to reach out to me, please fill out the form below.</p>
+
+    <div class="row">
+
+        <!--Grid column-->
+        <div class="col-md-9 mb-md-0 mb-5">
+            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="form_name_text">
+                        <div class="form_name">
+                            <input type="text" id="name" name="name" class="form-control">
+                            <label for="name" class="">Your name</label>
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="form_email_text">
+                        <div class="form_email">
+                            <input type="text" id="email" name="email" class="form-control">
+                            <label for="email" class="">Your email</label>
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="md-form mb-0">
+                            <input type="text" id="subject" name="subject" class="form-control">
+                            <label for="subject" class="">Subject</label>
+                        </div>
+                    </div>
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-12">
+
+                        <div class="md-form">
+                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                            <label for="message">Your message</label>
+                        </div>
+
+                    </div>
+                </div>
+                <!--Grid row-->
+
+            </form>
+
+            <div class="text-center text-md-left">
+                <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+            </div>
+            <div class="status"></div>
+        </div>
+
+
+    </div>
+
+</section>
+<!--Section: Contact v.2-->
 
   </body>
 </html>

@@ -16,9 +16,39 @@
     overflow: hidden;
 }
 
-.navbar-brand{
+.navigation_bar{
     color: rgb(0, 0, 0);
+    font-weight: bold;
 }
- .active{
-    color: rgb(255, 0, 0);
-  }
+.active{
+  color: rgb(255, 0, 0);
+}
+
+.form_header{
+  font-weight: bold;
+  text-align: center;
+}
+
+.form_description{
+  text-align: center;
+  width: responsive;
+  max-height: responsive;
+}
+
+.form_name{
+  width: responsive;
+  max-height: responsive;
+  text-align: left;
+}
+.form-control{
+  align-content: center;
+}
+.form_email{
+  width: responsive;
+  max-height: responsive;
+  text-align: right;
+}
+
+.form_email_text{
+  align-content: right;
+}
