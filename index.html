@@ -4,7 +4,6 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="Carlos Cabada's Portfolio of Work">
     <meta name="author" content="Carlos Cabada">
 
@@ -13,28 +12,7 @@
     <!-- Bootstrap -->
     <link href="bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
 
-    <style>
-        h2 {
-            color: rgba(rgb(255, 0, 0);
-        }
-        .top-buffer {
-            margin-top: 30px;
-        }
-        .jumbotron h1 {
-            color: rgba(120, 59, 191, 0.99);
-        }
-        .jumbotron {
-            position: relative;
-            background: rgba(50, 50, 155, 0.1);
-            width: 100%;
-            height: 100%;
-            background-size: cover;
-            overflow: hidden;
-        }
-        active{
-            color: rgba(rgb(255, 0, 0);
-        }
-    </style>
+    <link rel="stylesheet" href="stylesheet.css">
 </head>
 <body>
     <div class="jumbotron">
@@ -46,17 +24,11 @@
     </div>
     <div class="container">
     <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-          </button>
-          <a class="navbar-brand" href="work.html">Work Experience</a>
-        </div>
-
-        <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="contactInfo.html">Contact Information<span class="sr-only">(current)</span></a></li>
-            <li><a href="/interests.hmtl">Interests</a></li>
+            <li><a class="navbar-brand" href="work.html" >Work Experience</a></li>
+            <li><a class="navbar-brand"href="contactInfo.html">Contact Information</a></li>
+            <li><a class="navbar-brand" href="interest.html">Interests</a></li>
           </ul>
         </div>
     <!-- This container holds the rest of the content -->
@@ -98,32 +70,25 @@
 
     <!-- Third row of content -->
     <div class="row top-buffer">
-    <div class="col-md-6">
-    <h2>SuperMarket</h2>
-    <p>This project consists of a user login, inventory Manager, and user control authoraziation.</p>
-    <p><a class="btn btn-default" href="https://github.com/CCabada/PHPAssignment" role="button">View details &raquo;</a></p>
-    </div>
+      <div class="col-md-6">
+        <h2>SuperMarket</h2>
+        <p>This project consists of a user login, inventory Manager, and user control authoraziation.</p>
+        <p><a class="btn btn-default" href="https://github.com/CCabada/PHPAssignment" role="button">View details &raquo;</a></p>
+      </div>
 
-    <div class="col-md-6">
-    <img class="img-responsive img-rounded" src="resources/SuperMarketLogin.png">
-    </div>
+      <div class="col-md-6">
+        <img class="img-responsive img-rounded" src="resources/SuperMarketLogin.png">
+      </div>
     </div>
     <!-- End of row 3 -->
 
     </div>
     <!-- End of row 5 -->
 
-    <hr>
-
     <footer>
-    <p> &copy; 2019 Carlos Cabada</p>
+      <p> &copy; 2019 Carlos Cabada</p>
     </footer>
-
     </div>
     <!-- End of main content container -->
-
-    <!-- Put the Javascript at the bottom -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
   </body>
 </html>
