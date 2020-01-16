@@ -21,7 +21,7 @@
     font-weight: bold;
 }
 .active{
-  color: rgb(255, 0, 0);
+  color: rgb(0, 0, 0);
 }
 
 .form_header{
@@ -51,4 +51,25 @@
 
 .form_email_text{
   align-content: right;
+}
+
+.copyright{
+  pl
+}
+.title-company{
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: 16
+}
+
+.dates-employ{
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: 14
+}
+
+.jobReps{
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: 14
 }
