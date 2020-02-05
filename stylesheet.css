@@ -52,24 +52,24 @@
 .form_email_text{
   align-content: right;
 }
-
+body {padding-top:20px;}
 .copyright{
   pl
 }
-.title-company{
+title-company{
   color: rgb(0, 0, 0);
   font-weight: bold;
   font-size: 16
 }
 
-.dates-employ{
+dates-employ{
   color: rgb(0, 0, 0);
-  font-weight: bold;
+  font-weight: light;
   font-size: 14
 }
 
-.jobReps{
+jobReps{
   color: rgb(0, 0, 0);
-  font-weight: bold;
+  font-weight: lighter;
   font-size: 14
 }
