@@ -1,4 +1,7 @@
 <?php
+    use PHPMailer;
+    use SMTP;
+    use Exception;
 
     // Only process POST reqeusts.
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
